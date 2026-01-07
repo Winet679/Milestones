@@ -31,7 +31,6 @@ def forward_kinematics(teta1, teta2, teta3):
     matrix = T0 @ T1 @ T2 @ T3
     x = matrix[0, 2]
     y = matrix[1, 2]
-    return x, y
+    return f"End effector berada di titik x = {x:.2f} dan y = {y:.2f}"
 
-x, y = forward_kinematics(0, 0, 0)
-print(f"End effector berada di titik x = {x:.2f} dan y = {y:.2f}")
+print(forward_kinematics(0, 0, 0))
