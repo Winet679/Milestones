@@ -9,6 +9,7 @@ Milestone ini mencakup forward-inverse kinematics arm berbentuk tabung (Tabung 2
 
 ### Rumus
 Pergerakan sendi robot umumnya rotasional ataupun linear (translasi), jadi perlu diingat:
-- Rotasi <img width="181" height="214" alt="Rumus rotasi" src="https://github.com/user-attachments/assets/179096cb-540b-4b57-985b-8d319b84daa0" />
+- Rotasi
+  <img width="181" height="214" alt="Rumus rotasi" src="https://github.com/user-attachments/assets/179096cb-540b-4b57-985b-8d319b84daa0" />
 - Translasi
-**Homogeneus Transformation Matrix:** matriks yang menggabungkan rotasi dan translasi 3D. Matriks ini menggunakan koordinat homogen (dengan menambahkan koma 1) untuk memungkinkan translasi dan rotasi digabungkan menjadi satu perkalian matriks, sehingga menyederhanakan FK dalam robotika. 
+- **Homogeneus Transformation Matrix:** matriks yang menggabungkan rotasi dan translasi 3D. Matriks ini menggunakan koordinat homogen (dengan menambahkan koma 1) untuk memungkinkan translasi dan rotasi digabungkan menjadi satu perkalian matriks, sehingga menyederhanakan FK dalam robotika. 
